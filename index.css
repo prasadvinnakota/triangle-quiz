@@ -1,0 +1,99 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    
+
+}
+
+.list__item
+{
+    display:inline;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    color: cornsilk;
+}
+
+.link
+{
+    text-decoration: none ;
+    color: cornsilk;
+    margin:0.5rem;
+}
+
+.list
+{
+    text-align: right;
+    padding:1rem;
+
+}
+
+.navigation
+{
+    background-color: brown;
+    border-bottom-left-radius: 0.5rem;
+    color:cornsilk
+}
+h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+}
+
+input, label
+{
+    display:block;
+
+}
+
+label
+{
+    color: brown;
+    font-size: larger;
+
+}
+
+input
+{
+    
+    max-width:250px;
+    margin:auto;
+    border:2px solid brown;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin-bottom: 0.5rem;
+}
+
+main
+{
+    text-align: center;
+
+}
+
+#istriangle-btn
+{
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    margin:0.5rem;
+    background-color: brown;
+    color:cornsilk
+}
+
+#output1
+{
+    font-size: larger;
+    color: brown;
+    font-weight: 700;
+}
+
+
+h1
+{
+    color:brown;
+
+}
+
+

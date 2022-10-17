@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css"/>
+    <title>  Equiateral/Isoscelous Triangle Quiz</title>
+</head>
+<body>
+    <nav class="navigation">
+        <h2>Know About Triangles</h2>
+        <ul class="list">
+            <li class="list__item">
+                <a href="/" class="link">Is Triangle?</a>
+            </li>
+            <li class="list__item">
+                <a href="/quiz.html" class="link">Quiz</a>
+            </li>
+            <li class="list__item">
+                <a href="/isoquiz.html" class="link">Equilateral/Isosceles Quiz  </a>
+            </li>
+            <li class="list__item">
+                <a href="/hypotenuse.html" class="link">Hypotenuse</a>
+            </li>
+            <li class="list__item">
+                <a href="/trianglearea.html" class="link">Area Of Triangle</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <h1>Quiz On Triangles</h1>
+        <h2 style="color:brown">For Each Correct Answer You Will Get 1 Point</h2>
+       <form class="quiz-form">
+           <div class="question-container">
+               <p>What is a triangle which has two congruent sides?</p>
+               <label style="display:inline">
+                <input style="display:inline" type="radio" name="question1" value="isosceles"/>isosceles
+               </label>
+               <label style="display:inline">
+                <input style="display:inline" type="radio" name="question1" value="right"/>right
+               </label>
+               <label style="display:inline">
+                <input style="display:inline" type="radio" name="question1" value="obtuse"/>obtuse
+               </label>
+           </div>
+           <div class="question-container">
+            <p>What is the type of triangle if angle1 = 60°, angle2 = 60° and angle3 = 60°?</p>
+            <label style="display:inline">
+             <input style="display:inline" type="radio" name="question2" value="equilateral"/>equilateral
+            </label>
+            <label style="display:inline">
+             <input style="display:inline" type="radio" name="question2" value="obtuse"/>obtuse
+            </label>
+            <label style="display:inline">
+             <input style="display:inline" type="radio" name="question2" value="right"/>right
+            </label>
+        </div>
+       </form>
+       <button style="color: cornsilk; background-color: brown; border-radius: 0.5rem; padding:0.5rem; margin:0.5rem" id="submit">Submit</button>
+       <div id="output5" style="color:brown; font-size: larger; font-weight: 700;"></div>
+       <script type="text/javascript" src="/isoquiz.js"></script>
+    </main>
+
+
+
+
+</body>
+</html>
